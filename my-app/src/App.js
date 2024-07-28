@@ -1,12 +1,12 @@
-
-import styles from './app.module.css'
+import React from 'react';
+import RegistrationForm from './RegistrationForm';
 
 export const App = () => {
   return (
-    <div className={styles.app}>
-Hello
+    <div>
+      <RegistrationForm />
     </div>
   );
 };
 
-export default App
+export default App;
